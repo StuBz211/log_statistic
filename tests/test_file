@@ -1,0 +1,77 @@
+Jul 10 10:23:47 srv24-s-st postfix/smtpd[27376]: disconnect from unknown[183.7.91.65]
+Jul 10 10:23:48 srv24-s-st postfix/smtp[23213]: 61F15DF053D: to=<zolin@agreman.ru>, relay=orange.byte-force.com[216.98.148.8]:25, delay=9.8, delays=0.43/0/1.9/7.4, dsn=2.0.0, status=sent (250 Queued (6.625 seconds))
+Jul 10 10:23:48 srv24-s-st postfix/qmgr[3043]: 61F15DF053D: removed
+Jul 10 10:23:48 srv24-s-st postfix/smtpd[5747]: warning: 178.140.204.161: hostname broadband-178-140-204-161.nationalcablenetworks.ru verification failed: Name or service not known
+Jul 10 10:23:48 srv24-s-st postfix/smtpd[5747]: connect from unknown[178.140.204.161]
+Jul 10 10:23:48 srv24-s-st postfix/smtpd[24017]: connect from unknown[183.7.91.65]
+Jul 10 10:23:48 srv24-s-st postfix/smtpd[27377]: 656EFDF053D: client=unknown[212.46.210.6], sasl_method=LOGIN, sasl_username=tduds@wmess.ru
+Jul 10 10:23:48 srv24-s-st postfix/cleanup[24053]: EB1CADF047D: message-id=<3DB1B977FF325B5A4DB52BA3E47A6B07@jrlmxqqe>
+Jul 10 10:23:48 srv24-s-st postfix/cleanup[18031]: 656EFDF053D: message-id=<20120710062348.656EFDF053D@smtp.jino.ru>
+Jul 10 10:23:48 srv24-s-st postfix/qmgr[3043]: 20AB4DF0405: from=<tduds@webmess.ru>, size=172490, nrcpt=1 (queue active)
+Jul 10 10:23:48 srv24-s-st postfix/smtpd[3699]: disconnect from unknown[212.46.210.6]
+Jul 10 10:23:49 srv24-s-st postfix/smtpd[902]: connect from unknown[212.46.210.6]
+Jul 10 10:23:49 srv24-s-st postfix/smtpd[32324]: lost connection after AUTH from unknown[222.218.152.89]
+Jul 10 10:23:49 srv24-s-st postfix/smtpd[32324]: disconnect from unknown[222.218.152.89]
+Jul 10 10:23:49 srv24-s-st postfix/smtpd[5531]: 552C9DF053E: client=unknown[112.67.114.178], sasl_method=LOGIN, sasl_username=info@auraltc.ru
+Jul 10 10:23:49 srv24-s-st postfix/smtp[22638]: 20AB4DF0405: to=<kunukpaev@mail.ru>, relay=mxs.mail.ru[94.100.176.20]:25, delay=3.3, delays=2.8/0/0.01/0.45, dsn=2.0.0, status=sent (250 OK id=1SoTqv-0000CJ-HZ)
+Jul 10 10:23:49 srv24-s-st postfix/qmgr[3043]: 20AB4DF0405: removed
+Jul 10 10:23:49 srv24-s-st postfix/smtpd[902]: 973A3DF0405: client=unknown[212.46.210.6], sasl_method=LOGIN, sasl_username=tduds@webmess.ru
+Jul 10 10:23:49 srv24-s-st postfix/cleanup[6140]: 973A3DF0405: message-id=<20120710062349.973A3DF0405@smtp.jino.ru>
+Jul 10 10:23:49 srv24-s-st postfix/smtpd[15223]: connect from unknown[222.218.152.89]
+Jul 10 10:23:49 srv24-s-st postfix/smtpd[11217]: connect from unknown[213.87.122.107]
+Jul 10 10:23:50 srv24-s-st postfix/smtpd[29206]: warning: unknown[110.53.26.77]: SASL LOGIN authentication failed: UGFzc3dvcmQ6
+Jul 10 10:23:50 srv24-s-st postfix/smtpd[5747]: warning: unknown[178.140.204.161]: SASL LOGIN authentication failed: UGFzc3dvcmQ6
+Jul 10 10:23:50 srv24-s-st postfix/smtpd[1731]: warning: unknown[110.53.25.235]: SASL LOGIN authentication failed: UGFzc3dvcmQ6
+Jul 10 10:23:50 srv24-s-st postfix/smtpd[5747]: lost connection after AUTH from unknown[178.140.204.161]
+Jul 10 10:23:50 srv24-s-st postfix/smtpd[5747]: disconnect from unknown[178.140.204.161]
+Jul 10 10:23:50 srv24-s-st postfix/smtpd[27376]: warning: 94.45.182.160: address not listed for hostname dialin.customers.u-l.ru
+Jul 10 10:23:50 srv24-s-st postfix/smtpd[27376]: connect from unknown[94.45.182.160]
+Jul 10 10:23:50 srv24-s-st postfix/smtpd[29206]: lost connection after AUTH from unknown[110.53.26.77]
+Jul 10 10:23:50 srv24-s-st postfix/smtpd[29206]: disconnect from unknown[110.53.26.77]
+Jul 10 10:23:50 srv24-s-st postfix/smtpd[1731]: lost connection after AUTH from unknown[110.53.25.235]
+Jul 10 10:23:50 srv24-s-st postfix/smtpd[1731]: disconnect from unknown[110.53.25.235]
+Jul 10 10:23:51 srv24-s-st postfix/smtpd[12832]: warning: unknown[112.67.36.46]: SASL LOGIN authentication failed: UGFzc3dvcmQ6
+Jul 10 10:23:51 srv24-s-st postfix/smtpd[6039]: connect from unknown[82.138.54.82]
+Jul 10 10:23:51 srv24-s-st postfix/smtpd[32324]: connect from unknown[212.113.108.130]
+Jul 10 10:23:51 srv24-s-st postfix/qmgr[3043]: 656EFDF053D: from=<tduds@wmess.ru>, size=172488, nrcpt=1 (queue active)
+Jul 10 10:23:51 srv24-s-st postfix/smtpd[6039]: 6BF39DF053F: client=unknown[82.138.54.82], sasl_method=LOGIN, sasl_username=krasnova@fbmse.msk.ru
+Jul 10 10:23:51 srv24-s-st postfix/cleanup[18044]: 6BF39DF053F: message-id=<000801cd5e64$77bc44a0$6734cde0$@fbmse.msk.ru>
+Jul 10 10:23:51 srv24-s-st postfix/smtpd[27377]: disconnect from unknown[212.46.210.6]
+Jul 10 10:23:51 srv24-s-st postfix/qmgr[3043]: 6BF39DF053F: from=<krasnova@fbmse.msk.ru>, size=25872, nrcpt=1 (queue active)
+Jul 10 10:23:51 srv24-s-st postfix/smtp[22638]: 6BF39DF053F: to=<kimvv@fbmse.msk.ru>, relay=mail.fbmse.msk.ru[217.107.219.112]:25, delay=0.14, delays=0.11/0/0.01/0.02, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 2971B1D605B3)
+Jul 10 10:23:51 srv24-s-st postfix/smtp[22638]: 6BF39DF053F: to=<kimvv@asdawe.msk.ru>, relay=mail.fbmse.msk.ru[217.107.219.112]:25, delay=0.14, delays=0.11/0/0.01/0.02, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 2971B1D605B3)
+Jul 10 10:23:51 srv24-s-st postfix/qmgr[3043]: 6BF39DF053F: removed
+Jul 10 10:23:51 srv24-s-st postfix/smtpd[5747]: connect from unknown[212.46.210.6]
+Jul 10 10:23:51 srv24-s-st postfix/smtpd[5699]: lost connection after AUTH from unknown[222.218.152.89]
+Jul 10 10:23:51 srv24-s-st postfix/smtpd[5699]: disconnect from unknown[222.218.152.89]
+Jul 10 10:23:51 srv24-s-st postfix/smtpd[3699]: connect from unknown[110.53.26.77]
+Jul 10 10:23:51 srv24-s-st postfix/smtpd[12832]: lost connection after AUTH from unknown[112.67.36.46]
+Jul 10 10:23:51 srv24-s-st postfix/smtpd[12832]: disconnect from unknown[112.67.36.46]
+Jul 10 10:23:51 srv24-s-st postfix/smtp[23213]: 656EFDF053D: to=<kunya658@mail.ru>, relay=mxs.mail.ru[94.100.176.20]:25, delay=3.6, delays=3.1/0/0.02/0.48, dsn=2.0.0, status=sent (250 OK id=1SoTqy-0000Sq-3P)
+Jul 10 10:23:51 srv24-s-st postfix/qmgr[3043]: 656EFDF053D: removed
+Jul 10 10:23:52 srv24-s-st postfix/smtpd[32324]: 2A9F5DF053D: client=unknown[212.113.108.130], sasl_method=CRAM-MD5, sasl_username=import9@fmgifts.ru
+Jul 10 10:23:52 srv24-s-st postfix/qmgr[3043]: 973A3DF0405: from=<tduds@webmess.ru>, size=172575, nrcpt=1 (queue active)
+Jul 10 10:23:52 srv24-s-st postfix/smtpd[2273]: warning: unknown[112.67.66.201]: SASL LOGIN authentication failed: UGFzc3dvcmQ6
+Jul 10 10:23:52 srv24-s-st postfix/smtpd[27376]: warning: unknown[94.45.182.160]: SASL LOGIN authentication failed: UGFzc3dvcmQ6
+Jul 10 10:23:52 srv24-s-st postfix/smtpd[32324]: 2A9F5DF053D: reject: RCPT from unknown[212.113.108.130]: 550 5.1.1 <pushpinsinspectionpayment>: Recipient address rejected: User unknown in local recipient table; from=<import9@fmgifts.ru> to=<pushpinsinspectionpayment> proto=ESMTP helo=<[192.168.0.13]>
+Jul 10 10:23:52 srv24-s-st postfix/smtpd[27376]: lost connection after AUTH from unknown[94.45.182.160]
+Jul 10 10:12:19 srv24-s-st postfix/smtpd[11171]: warning: 188.168.65.94: hostname 188.168.65.94.retail.sakhttk.ru verification failed: Name or service not known
+Jul 10 10:12:19 srv24-s-st postfix/smtpd[11171]: connect from unknown[188.168.65.94]
+Jul 10 10:12:19 srv24-s-st postfix/smtp[6781]: 2077EDF0506: to=<miroslav.kovac@gsl.cz>, relay=mail.gsl.cz[93.89.100.238]:25, delay=2.2, delays=0.11/0/1.9/0.22, dsn=2.0.0, status=sent (250 2.0.0 4ffbc755-00006ce2 Message accepted for delivery)
+Jul 10 10:12:19 srv24-s-st postfix/qmgr[3043]: 2077EDF0506: removed
+Jul 10 10:12:19 srv24-s-st postfix/smtpd[16082]: warning: unknown[113.17.23.97]: SASL LOGIN authentication failed: UGFzc3dvcmQ6
+Jul 10 10:12:19 srv24-s-st postfix/smtp[22605]: 67BDBDF0503: to=<987452362@qq.com>, relay=mx3.qq.com[119.147.6.81]:25, delay=18, delays=10/0/1.4/6.1, dsn=5.0.0, status=bounced (host mx3.qq.com[119.147.6.81] said: 550 Connection frequency limited. http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=20022&&no=1000722 (in reply to RCPT TO command))
+Jul 10 10:12:19 srv24-s-st postfix/smtpd[29207]: warning: 61.141.72.43: hostname 43.72.141.61.broad.sz.gd.dynamic.163data.com.cn verification failed: Name or service not known
+Jul 10 10:12:19 srv24-s-st postfix/smtpd[29207]: connect from unknown[61.141.72.43]
+Jul 10 10:12:19 srv24-s-st postfix/smtpd[29626]: connect from unknown[188.134.33.107]
+Jul 10 10:12:19 srv24-s-st postfix/cleanup[28840]: EFA03DF0506: message-id=<20120710061219.EFA03DF0506@smtp.jino.ru>
+Jul 10 10:12:20 srv24-s-st postfix/smtpd[16082]: lost connection after AUTH from unknown[113.17.23.97]
+Jul 10 10:12:20 srv24-s-st postfix/smtpd[16082]: disconnect from unknown[113.17.23.97]
+Jul 10 10:12:20 srv24-s-st postfix/qmgr[3043]: EFA03DF0506: from=<>, size=9301, nrcpt=1 (queue active)
+Jul 10 10:12:20 srv24-s-st postfix/bounce[30553]: 67BDBDF0503: sender non-delivery notification: EFA03DF0506
+Jul 10 10:12:20 srv24-s-st postfix/qmgr[3043]: 67BDBDF0503: removed
+Jul 10 10:12:20 srv24-s-st postfix/smtp[23213]: EFA03DF0506: to=<info@auraltc.ru>, relay=mail.auraltc.ru[217.107.34.202]:25, delay=0.13, delays=0.08/0/0.03/0.01, dsn=5.7.1, status=bounced (host mail.auraltc.ru[217.107.34.202] said: 554 5.7.1 <info@auraltc.ru>: Relay access denied (in reply to RCPT TO command))
+Jul 10 10:12:20 srv24-s-st postfix/qmgr[3043]: EFA03DF0506: removed
+Jul 10 10:12:20 srv24-s-st postfix/qmgr[3043]: E7874DF050F: from=<info@lsst.ru>, size=1386940, nrcpt=1 (queue active)
+Jul 10 10:12:20 srv24-s-st postfix/smtp[22638]: E7874DF050F: to=<volkova@lsst.ru>, relay=mail.lsst.ru[81.177.140.163]:25, delay=2, delays=1.9/0/0/0.15, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 6997F4FC148)
+Jul 10 10:12:20 srv24-s-st postfix/qmgr[3043]: E7874DF050F: removed
